@@ -232,7 +232,6 @@ section {
   width: 100%;
   min-height: 50vh;
   background-color: var(--color-secondary);
-  background-image: url("assets/img/hero-bg.webp");
   background-size: cover;
   background-position: center;
   position: relative;
