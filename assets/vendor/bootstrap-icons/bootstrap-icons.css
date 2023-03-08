@@ -1,0 +1,31 @@
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff2"),
+url("./fonts/bootstrap-icons.woff?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff");
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-arrow-right::before { content: "\f138"; }
+.bi-arrow-up-short::before { content: "\f145"; }
+.bi-box::before { content: "\f1c8"; }
+.bi-compass-fill::before { content: "\f2d0"; }
+.bi-palette::before { content: "\f4b1"; }
+.bi-share::before { content: "\f52e"; }
+.bi-qr-code-scan::before { content: "\f6ad"; }
+.bi-sign-intersection-fill::before { content: "\f853"; }
+.bi-sign-intersection-side-fill::before { content: "\f854"; }
